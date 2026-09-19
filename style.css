@@ -1,68 +1,137 @@
+/* Overall page */
 body {
     font-family: Arial, sans-serif;
-    max-width: 760px;
+    max-width: 850px;
     margin: 0 auto;
-    padding: 40px 20px;
-    line-height: 1.6;
-    color: #222;
+    padding: 50px 24px;
+    line-height: 1.7;
+    color: #1f1f1f;
+    background-color: #ffffff;
 }
 
+/* Main article */
 main {
     width: 100%;
 }
 
+/* Small category above headline */
 .kicker {
     font-size: 13px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     font-weight: bold;
-    color: #666;
+    color: #b00020;
+    text-transform: uppercase;
+    margin-bottom: 12px;
 }
 
+/* Main headline */
 h1 {
     font-family: Georgia, serif;
-    font-size: 48px;
+    font-size: 52px;
     line-height: 1.05;
-    margin-bottom: 20px;
+    letter-spacing: -1px;
+    margin: 0 0 22px 0;
+    color: #111;
 }
 
+/* Short description */
 .dek {
-    font-size: 20px;
+    font-size: 21px;
     color: #555;
     line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 760px;
 }
 
+/* Author information */
 .byline {
     font-size: 14px;
-    color: #666;
+    color: #777;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
     margin-bottom: 35px;
 }
 
+/* Article image */
 img {
     width: 100%;
     height: auto;
+    display: block;
+    border-radius: 4px;
 }
 
+/* Image caption */
 .caption {
     font-size: 13px;
-    color: #666;
-    margin-top: 8px;
+    color: #777;
+    margin-top: 9px;
+    line-height: 1.5;
 }
 
+/* Section headings */
 h2 {
     font-family: Georgia, serif;
-    font-size: 30px;
+    font-size: 31px;
+    line-height: 1.2;
     margin-top: 55px;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
+    color: #111;
 }
 
+/* Article paragraphs */
 p {
-    font-size: 17px;
+    font-size: 18px;
+    line-height: 1.75;
+    margin-bottom: 22px;
 }
 
+/* Highlight the first paragraph */
+main > p:first-of-type {
+    font-size: 19px;
+}
+
+/* Source section */
 .source {
-    border-top: 1px solid #ccc;
-    margin-top: 50px;
-    padding-top: 20px;
+    border-top: 2px solid #222;
+    margin-top: 60px;
+    padding: 20px 0 10px 0;
     color: #666;
     font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: #b00020;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile-friendly design */
+@media (max-width: 600px) {
+
+    body {
+        padding: 30px 18px;
+    }
+
+    h1 {
+        font-size: 38px;
+        letter-spacing: -0.5px;
+    }
+
+    .dek {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 27px;
+        margin-top: 40px;
+    }
+
+    p {
+        font-size: 17px;
+    }
 }
