@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+    color: #222;
+}
+
+main {
+    width: 100%;
+}
+
+.kicker {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    color: #666;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    line-height: 1.05;
+    margin-bottom: 20px;
+}
+
+.dek {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.byline {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    font-size: 13px;
+    color: #666;
+    margin-top: 8px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.source {
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+    padding-top: 20px;
+    color: #666;
+    font-size: 13px;
+}
